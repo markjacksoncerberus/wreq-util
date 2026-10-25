@@ -58,6 +58,13 @@ define_enum!(
     Chrome145 => ("chrome_145", v145::emulation),
     Chrome146 => ("chrome_146", v146::emulation),
     Chrome147 => ("chrome_147", v147::emulation),
+    Chrome148 => ("chrome_148", v148::emulation),
+    Chrome149 => ("chrome_149", v149::emulation),
+    Chrome150 => ("chrome_150", v150::emulation),
+    Chrome151 => ("chrome_151", v151::emulation),
+    Chrome152 => ("chrome_152", v152::emulation),
+    Chrome153 => ("chrome_153", v153::emulation),
+    Chrome154 => ("chrome_154", v154::emulation),
 
     // Edge versions
     Edge101 => ("edge_101", edge101::emulation),
@@ -78,6 +85,7 @@ define_enum!(
     Edge145 => ("edge_145", edge145::emulation),
     Edge146 => ("edge_146", edge146::emulation),
     Edge147 => ("edge_147", edge147::emulation),
+    Edge148 => ("edge_148", edge148::emulation),
 
     // Opera versions
     Opera116 => ("opera_116", opera116::emulation),
@@ -95,6 +103,7 @@ define_enum!(
     Opera128 => ("opera_128", opera128::emulation),
     Opera129 => ("opera_129", opera129::emulation),
     Opera130 => ("opera_130", opera130::emulation),
+    Opera131 => ("opera_131", opera131::emulation),
 
     // Firefox versions
     Firefox109 => ("firefox_109", ff109::emulation),
@@ -115,6 +124,8 @@ define_enum!(
     Firefox147 => ("firefox_147", ff147::emulation),
     Firefox148 => ("firefox_148", ff148::emulation),
     Firefox149 => ("firefox_149", ff149::emulation),
+    Firefox150 => ("firefox_150", ff150::emulation),
+    Firefox151 => ("firefox_151", ff151::emulation),
 
     // Safari versions
     SafariIos17_2 => ("safari_ios_17.2", safari_ios_17_2::emulation),
@@ -140,6 +151,8 @@ define_enum!(
     Safari26 => ("safari_26", safari26::emulation),
     Safari26_1 => ("safari_26.1", safari26_1::emulation),
     Safari26_2 => ("safari_26.2", safari26_2::emulation),
+    Safari26_3 => ("safari_26.3", safari26_3::emulation),
+    Safari26_4 => ("safari_26.4", safari26_4::emulation),
     SafariIPad26 => ("safari_ipad_26", safari_ipad_26::emulation),
     SafariIpad26_2 => ("safari_ipad_26.2", safari_ipad_26_2::emulation),
     SafariIos26 => ("safari_ios_26", safari_ios_26::emulation),

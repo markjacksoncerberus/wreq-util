@@ -1,0 +1,12 @@
+{
+  "crate": "wreq-util",
+  "version": "3.0.0-rc.12",
+  "source": "crates.io",
+  "upstream_vcs": {
+    "git": {
+      "sha1": "f43b41539d3ded0701c06a74264db0c8e7e63bcf"
+    },
+    "path_in_vcs": ""
+  },
+  "local_changes": "Chrome149\u2013154 profiles; Linux transport fields measured; Chrome152\u2013154 root-store-specific Trust Anchor ID lists are not replicated."
+}

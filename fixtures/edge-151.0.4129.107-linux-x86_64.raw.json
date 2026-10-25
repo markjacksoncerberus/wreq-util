@@ -1,0 +1,2925 @@
+{
+  "schema_version": 1,
+  "browser": "edge",
+  "platform": "linux",
+  "verification": "native",
+  "captured_at": "2026-10-25T21:05:13.628955+00:00",
+  "browser_version": {
+    "protocolVersion": "1.3",
+    "product": "Edg/151.0.4129.107",
+    "revision": "@419e77616b4ed7d0a544b85cb53ccd5b74d5f135",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+    "jsVersion": "15.1.23.12"
+  },
+  "identity": {
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+    "platform": "Linux x86_64",
+    "language": "en-US",
+    "languages": [
+      "en-US",
+      "en"
+    ],
+    "hints": {
+      "architecture": "x86",
+      "bitness": "64",
+      "brands": [
+        {
+          "brand": "Not=A?Brand",
+          "version": "99"
+        },
+        {
+          "brand": "Microsoft Edge",
+          "version": "151"
+        },
+        {
+          "brand": "Chromium",
+          "version": "151"
+        }
+      ],
+      "fullVersionList": [
+        {
+          "brand": "Not=A?Brand",
+          "version": "99.0.0.0"
+        },
+        {
+          "brand": "Microsoft Edge",
+          "version": "151.0.4129.107"
+        },
+        {
+          "brand": "Chromium",
+          "version": "151.0.7922.174"
+        }
+      ],
+      "mobile": false,
+      "model": "",
+      "platform": "Linux",
+      "platformVersion": "",
+      "uaFullVersion": "151.0.4129.107",
+      "wow64": false
+    }
+  },
+  "installation": {
+    "distribution": "microsoft-edge-stable",
+    "product": "edge",
+    "version": "151.0.4129.107",
+    "platform": "linux64",
+    "source": "https://packages.microsoft.com/repos/edge/dists/stable/main/binary-amd64/Packages.gz",
+    "download_url": "https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_151.0.4129.107-1_amd64.deb",
+    "archive_sha256": "1193e2de1588c14aff86704cb479f512955cfd6c5f2d5c2bb54ff536a77f624c",
+    "official_checksum_url": "https://packages.microsoft.com/repos/edge/dists/stable/main/binary-amd64/Packages.gz",
+    "official_checksum_sha256": "1193e2de1588c14aff86704cb479f512955cfd6c5f2d5c2bb54ff536a77f624c",
+    "executable": "/tmp/wreq-edge-capture/edge/151.0.4129.107/linux64-stable/opt/microsoft/msedge/msedge"
+  },
+  "environment": {
+    "os": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "headless": false,
+    "flags": [
+      "--no-proxy-server",
+      "--ignore-certificate-errors-spki-list=D9Nofpf3s0H3BrQ/eMQ5Elif01fvTMHXd3Latx0dCPY="
+    ],
+    "automation": "playwright persistent context; no UA/header overrides"
+  },
+  "captures": [
+    {
+      "protocol": "h2",
+      "connections": [
+        {
+          "protocol": "h2",
+          "settings": [
+            [
+              [
+                1,
+                65536
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                4,
+                6291456
+              ],
+              [
+                6,
+                262144
+              ]
+            ]
+          ],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "h2",
+          "settings": [
+            [
+              [
+                1,
+                65536
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                4,
+                6291456
+              ],
+              [
+                6,
+                262144
+              ]
+            ]
+          ],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        }
+      ],
+      "requests": [
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/navigation"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/navigation"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/clicked"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/navigation"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/clicked"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/redirect"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/redirected"
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/redirected"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/resources"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/script.js"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "script"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/style.css"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "text/css,*/*;q=0.1"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "style"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/image.svg"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/font.woff2"
+            ],
+            [
+              "origin",
+              "https://localhost:42409"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "font"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/fetch"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "empty"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "POST"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/post"
+            ],
+            [
+              "content-length",
+              "5"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "content-type",
+              "text/plain"
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "origin",
+              "https://localhost:42409"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "empty"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "127.0.0.1:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/cross-fetch"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "origin",
+              "https://localhost:42409"
+            ],
+            [
+              "sec-fetch-site",
+              "cross-site"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "empty"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "127.0.0.1:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/cross-script.js"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "cross-site"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "script"
+            ],
+            [
+              "sec-fetch-storage-access",
+              "active"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/hints"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-full-version-list",
+              "\"Not=A?Brand\";v=\"99.0.0.0\", \"Microsoft Edge\";v=\"151.0.4129.107\", \"Chromium\";v=\"151.0.7922.174\""
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-bitness",
+              "\"64\""
+            ],
+            [
+              "sec-ch-ua-model",
+              "\"\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-wow64",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-arch",
+              "\"x86\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua-platform-version",
+              "\"\""
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/hints"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:42409"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/after-hints"
+            ],
+            [
+              "sec-ch-ua-full-version-list",
+              "\"Not=A?Brand\";v=\"99.0.0.0\", \"Microsoft Edge\";v=\"151.0.4129.107\", \"Chromium\";v=\"151.0.7922.174\""
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-bitness",
+              "\"64\""
+            ],
+            [
+              "sec-ch-ua-model",
+              "\"\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-wow64",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-arch",
+              "\"x86\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua-platform-version",
+              "\"\""
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "empty"
+            ],
+            [
+              "referer",
+              "https://localhost:42409/hints"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "connections": [
+        {
+          "protocol": "http/1.1",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "http/1.1",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "http/1.1",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "http/1.1",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        }
+      ],
+      "requests": [
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/navigation",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/navigation"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/clicked",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/navigation"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/clicked"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/redirect",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/redirected",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/redirected"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/resources",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "GET",
+          "path": "/script.js",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "script"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "GET",
+          "path": "/style.css",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "text/css,*/*;q=0.1"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "style"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "GET",
+          "path": "/image.svg",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "GET",
+          "path": "/font.woff2",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "Origin",
+              "https://localhost:45623"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "font"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "GET",
+          "path": "/fetch",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "empty"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "POST",
+          "path": "/post",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "Content-Length",
+              "5"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "Content-Type",
+              "text/plain"
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Origin",
+              "https://localhost:45623"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "empty"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 2,
+          "method": "GET",
+          "path": "/cross-fetch",
+          "headers": [
+            [
+              "Host",
+              "127.0.0.1:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Origin",
+              "https://localhost:45623"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "cross-site"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "empty"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 3,
+          "method": "GET",
+          "path": "/cross-script.js",
+          "headers": [
+            [
+              "Host",
+              "127.0.0.1:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "cross-site"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "script"
+            ],
+            [
+              "Sec-Fetch-Storage-Access",
+              "active"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "GET",
+          "path": "/hints",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-full-version-list",
+              "\"Not=A?Brand\";v=\"99.0.0.0\", \"Microsoft Edge\";v=\"151.0.4129.107\", \"Chromium\";v=\"151.0.7922.174\""
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-bitness",
+              "\"64\""
+            ],
+            [
+              "sec-ch-ua-model",
+              "\"\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-wow64",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-arch",
+              "\"x86\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua-platform-version",
+              "\"\""
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/hints"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 1,
+          "method": "GET",
+          "path": "/after-hints",
+          "headers": [
+            [
+              "Host",
+              "localhost:45623"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-full-version-list",
+              "\"Not=A?Brand\";v=\"99.0.0.0\", \"Microsoft Edge\";v=\"151.0.4129.107\", \"Chromium\";v=\"151.0.7922.174\""
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "sec-ch-ua",
+              "\"Not=A?Brand\";v=\"99\", \"Microsoft Edge\";v=\"151\", \"Chromium\";v=\"151\""
+            ],
+            [
+              "sec-ch-ua-bitness",
+              "\"64\""
+            ],
+            [
+              "sec-ch-ua-model",
+              "\"\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-wow64",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-arch",
+              "\"x86\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+            ],
+            [
+              "sec-ch-ua-platform-version",
+              "\"\""
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "empty"
+            ],
+            [
+              "Referer",
+              "https://localhost:45623/hints"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

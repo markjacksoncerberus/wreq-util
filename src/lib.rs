@@ -12,3 +12,7 @@ pub mod tower;
 
 #[cfg(feature = "emulation")]
 pub use self::emulate::{Emulation, Platform, Profile};
+
+/// Capture-backed request emulation with explicit provenance.
+#[cfg(feature = "captured")]
+pub mod captured;

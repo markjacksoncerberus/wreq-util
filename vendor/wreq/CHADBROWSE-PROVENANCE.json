@@ -1,0 +1,12 @@
+{
+  "crate": "wreq",
+  "version": "6.0.0-rc.29",
+  "source": "crates.io",
+  "upstream_vcs": {
+    "git": {
+      "sha1": "18436d1f7ddfdd5cc4dd16049970cee96d70540e"
+    },
+    "path_in_vcs": ""
+  },
+  "local_changes": "TLS Trust Anchor IDs, per-request HTTP/2 priority, server padding and independent signature GREASE options."
+}

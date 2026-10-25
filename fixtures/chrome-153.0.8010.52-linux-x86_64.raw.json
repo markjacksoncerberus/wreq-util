@@ -1,0 +1,2929 @@
+{
+  "schema_version": 1,
+  "browser": "chrome",
+  "platform": "linux",
+  "verification": "native",
+  "captured_at": "2026-10-25T02:36:26.542361+00:00",
+  "browser_version": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/153.0.8010.52",
+    "revision": "@78e5e45d4bb41035e17ea4da2cc257f496416ac9",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "jsVersion": "15.3.76.13"
+  },
+  "identity": {
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "platform": "Linux x86_64",
+    "language": "en-US",
+    "languages": [
+      "en-US",
+      "en"
+    ],
+    "hints": {
+      "architecture": "x86",
+      "bitness": "64",
+      "brands": [
+        {
+          "brand": "Google Chrome",
+          "version": "153"
+        },
+        {
+          "brand": "Not_A Brand",
+          "version": "8"
+        },
+        {
+          "brand": "Chromium",
+          "version": "153"
+        }
+      ],
+      "fullVersionList": [
+        {
+          "brand": "Google Chrome",
+          "version": "153.0.8010.52"
+        },
+        {
+          "brand": "Not_A Brand",
+          "version": "8.0.0.0"
+        },
+        {
+          "brand": "Chromium",
+          "version": "153.0.8010.52"
+        }
+      ],
+      "mobile": false,
+      "model": "",
+      "platform": "Linux",
+      "platformVersion": "",
+      "wow64": false
+    }
+  },
+  "installation": {
+    "distribution": "google-chrome-stable",
+    "product": "chrome",
+    "version": "153.0.8010.52",
+    "platform": "linux64",
+    "source": "https://googlechromelabs.github.io/chrome-for-testing/latest-versions-per-milestone-with-downloads.json",
+    "download_url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_153.0.8010.52-1_amd64.deb",
+    "archive_sha256": "29e0e4b5af01213915ffdb7f4e49a11956dc5fc591165c85af8688dcdff907ac",
+    "official_checksum_url": null,
+    "executable": "/home/cbt/.cache/wreq-capture/chrome/153.0.8010.52/linux64-stable/opt/google/chrome/google-chrome"
+  },
+  "environment": {
+    "os": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+    "architecture": "x86_64",
+    "headless": false,
+    "flags": [
+      "--no-proxy-server",
+      "--ignore-certificate-errors-spki-list=5YLhI+ZFL4SZGR/LZOOtkyo0C27F+x9+3bxKAmGvuKY="
+    ],
+    "automation": "playwright persistent context; no UA/header overrides"
+  },
+  "captures": [
+    {
+      "protocol": "h2",
+      "connections": [
+        {
+          "protocol": "h2",
+          "settings": [
+            [
+              [
+                1,
+                65536
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                4,
+                6291456
+              ],
+              [
+                6,
+                262144
+              ]
+            ]
+          ],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "h2",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "h2",
+          "settings": [
+            [
+              [
+                1,
+                65536
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                4,
+                6291456
+              ],
+              [
+                6,
+                262144
+              ]
+            ]
+          ],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        }
+      ],
+      "requests": [
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/navigation"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/navigation"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/clicked"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/navigation"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/clicked"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/redirect"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/redirected"
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/redirected"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/resources"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/script.js"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "script"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/style.css"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "text/css,*/*;q=0.1"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "style"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/image.svg"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/font.woff2"
+            ],
+            [
+              "origin",
+              "https://localhost:41809"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "font"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/fetch"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "empty"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "POST"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/post"
+            ],
+            [
+              "content-length",
+              "5"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "content-type",
+              "text/plain"
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "origin",
+              "https://localhost:41809"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "empty"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/resources"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 2,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "127.0.0.1:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/cross-fetch"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "origin",
+              "https://localhost:41809"
+            ],
+            [
+              "sec-fetch-site",
+              "cross-site"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "empty"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "127.0.0.1:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/cross-script.js"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "cross-site"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "script"
+            ],
+            [
+              "sec-fetch-storage-access",
+              "active"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/hints"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "upgrade-insecure-requests",
+              "1"
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "sec-fetch-site",
+              "none"
+            ],
+            [
+              "sec-fetch-mode",
+              "navigate"
+            ],
+            [
+              "sec-fetch-user",
+              "?1"
+            ],
+            [
+              "sec-fetch-dest",
+              "document"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=0, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/favicon.ico"
+            ],
+            [
+              "sec-ch-ua-full-version-list",
+              "\"Google Chrome\";v=\"153.0.8010.52\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.52\""
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-bitness",
+              "\"64\""
+            ],
+            [
+              "sec-ch-ua-model",
+              "\"\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-wow64",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-arch",
+              "\"x86\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua-platform-version",
+              "\"\""
+            ],
+            [
+              "accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "no-cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "image"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/hints"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "headers": [
+            [
+              ":method",
+              "GET"
+            ],
+            [
+              ":authority",
+              "localhost:41809"
+            ],
+            [
+              ":scheme",
+              "https"
+            ],
+            [
+              ":path",
+              "/after-hints"
+            ],
+            [
+              "sec-ch-ua-full-version-list",
+              "\"Google Chrome\";v=\"153.0.8010.52\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.52\""
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-bitness",
+              "\"64\""
+            ],
+            [
+              "sec-ch-ua-model",
+              "\"\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-wow64",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-arch",
+              "\"x86\""
+            ],
+            [
+              "user-agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua-platform-version",
+              "\"\""
+            ],
+            [
+              "accept",
+              "*/*"
+            ],
+            [
+              "sec-fetch-site",
+              "same-origin"
+            ],
+            [
+              "sec-fetch-mode",
+              "cors"
+            ],
+            [
+              "sec-fetch-dest",
+              "empty"
+            ],
+            [
+              "referer",
+              "https://localhost:41809/hints"
+            ],
+            [
+              "accept-encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "accept-language",
+              "en-US,en;q=0.9"
+            ],
+            [
+              "priority",
+              "u=1, i"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "connections": [
+        {
+          "protocol": "http/1.1",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "http/1.1",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "http/1.1",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+          "protocol": "http/1.1",
+          "settings": [],
+          "tls_version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384"
+        }
+      ],
+      "requests": [
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/navigation",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/navigation"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/clicked",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/navigation"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/clicked"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/redirect",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/redirected",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/redirected"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/resources",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/script.js",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "script"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/style.css",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "text/css,*/*;q=0.1"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "style"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/image.svg",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/font.woff2",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "Origin",
+              "https://localhost:35059"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "font"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/fetch",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "empty"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "POST",
+          "path": "/post",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "Content-Length",
+              "5"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "Content-Type",
+              "text/plain"
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Origin",
+              "https://localhost:35059"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "empty"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/resources"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 2,
+          "method": "GET",
+          "path": "/cross-fetch",
+          "headers": [
+            [
+              "Host",
+              "127.0.0.1:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Origin",
+              "https://localhost:35059"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "cross-site"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "empty"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 3,
+          "method": "GET",
+          "path": "/cross-script.js",
+          "headers": [
+            [
+              "Host",
+              "127.0.0.1:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "cross-site"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "script"
+            ],
+            [
+              "Sec-Fetch-Storage-Access",
+              "active"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/hints",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "Upgrade-Insecure-Requests",
+              "1"
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "Accept",
+              "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "none"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "navigate"
+            ],
+            [
+              "Sec-Fetch-User",
+              "?1"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "document"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-full-version-list",
+              "\"Google Chrome\";v=\"153.0.8010.52\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.52\""
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-bitness",
+              "\"64\""
+            ],
+            [
+              "sec-ch-ua-model",
+              "\"\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-wow64",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-arch",
+              "\"x86\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua-platform-version",
+              "\"\""
+            ],
+            [
+              "Accept",
+              "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "no-cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "image"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/hints"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        },
+        {
+          "connection": 0,
+          "method": "GET",
+          "path": "/after-hints",
+          "headers": [
+            [
+              "Host",
+              "localhost:35059"
+            ],
+            [
+              "Connection",
+              "keep-alive"
+            ],
+            [
+              "sec-ch-ua-full-version-list",
+              "\"Google Chrome\";v=\"153.0.8010.52\", \"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"153.0.8010.52\""
+            ],
+            [
+              "sec-ch-ua-platform",
+              "\"Linux\""
+            ],
+            [
+              "sec-ch-ua",
+              "\"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\""
+            ],
+            [
+              "sec-ch-ua-bitness",
+              "\"64\""
+            ],
+            [
+              "sec-ch-ua-model",
+              "\"\""
+            ],
+            [
+              "sec-ch-ua-mobile",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-wow64",
+              "?0"
+            ],
+            [
+              "sec-ch-ua-arch",
+              "\"x86\""
+            ],
+            [
+              "User-Agent",
+              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+            ],
+            [
+              "sec-ch-ua-platform-version",
+              "\"\""
+            ],
+            [
+              "Accept",
+              "*/*"
+            ],
+            [
+              "Sec-Fetch-Site",
+              "same-origin"
+            ],
+            [
+              "Sec-Fetch-Mode",
+              "cors"
+            ],
+            [
+              "Sec-Fetch-Dest",
+              "empty"
+            ],
+            [
+              "Referer",
+              "https://localhost:35059/hints"
+            ],
+            [
+              "Accept-Encoding",
+              "gzip, deflate, br, zstd"
+            ],
+            [
+              "Accept-Language",
+              "en-US,en;q=0.9"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -22,3 +22,7 @@ Cargo.lock
 #.idea/
 .vscode
 .zed
+
+# Preserve the transported upstream lock snapshots for provenance.
+!vendor/wreq/Cargo.lock
+!vendor/btls-sys/Cargo.lock

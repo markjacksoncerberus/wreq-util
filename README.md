@@ -1,10 +1,12 @@
+> This is the shared Cerberus fork. See [FORK.md](FORK.md) for consumer dependency
+> setup and [CAPTURED.md](CAPTURED.md) for versioned Chrome/Brave captures.
+
 # wreq-util
 
 A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).
 
 [![Crates.io](https://img.shields.io/crates/v/wreq-util.svg?logo=rust)](https://crates.io/crates/wreq-util)
 [![GitHub License](https://img.shields.io/github/license/0x676e67/wreq-util)](https://github.com/0x676e67/wreq-util/blob/main/LICENSE)
-[![Documentation](https://docs.rs/wreq-util/badge.svg)](https://docs.rs/wreq-util)
 [![Discord chat][discord-badge]][discord-url]
 
 [discord-badge]: https://img.shields.io/discord/1486741856397164788.svg?logo=discord
@@ -61,3 +63,8 @@ Unless you explicitly state otherwise, any contribution intentionally submitted 
 ## FAQ
 
 **For all issues and feedback, please head over to the [wreq](https://github.com/0x676e67/wreq) repository.**
+
+## Capture-backed profiles
+
+The optional `captured` feature adds versioned Chrome and Brave request profiles.
+See [CAPTURED.md](CAPTURED.md) for selection, provenance, capture tooling, and validation.

@@ -56,7 +56,8 @@ jobs:
       - name: Tests
         run: | 
           set -euxo pipefail
-          cargo nextest run --workspace
+          cargo nextest run --workspace --features captured
+          python3 -m unittest discover -s capture -p 'test_*.py'
 
   linux:
     name: Linux

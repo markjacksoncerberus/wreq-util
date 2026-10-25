@@ -1,0 +1,1384 @@
+{
+  "schema_version": 1,
+  "profile_id": "brave-152.0.7977.83-macos-x86_64",
+  "chromium_version": "152.0.7977.83",
+  "architecture": "x86_64",
+  "capture_mode": "headed",
+  "product_version": "1.94.121",
+  "browser": "brave",
+  "platform": "macos",
+  "verification": "derived",
+  "captured_at": "2026-10-25T02:35:24.491347+00:00",
+  "source_capture": "brave-152.0.7977.83-linux-x86_64.raw.json",
+  "source_sha256": "d230f733aee9786788f8bb5d34855b76c6d384f7ae61bf4275c586b390ce80d0",
+  "browser_version": "Chrome/152.0.7977.83",
+  "identity": {
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "language": "en-US",
+    "languages": [
+      "en-US"
+    ],
+    "hints": {
+      "architecture": "x86",
+      "bitness": "64",
+      "brands": [
+        {
+          "brand": "Chromium",
+          "version": "152"
+        },
+        {
+          "brand": "Not?A_Brand",
+          "version": "24"
+        },
+        {
+          "brand": "Brave",
+          "version": "152"
+        }
+      ],
+      "mobile": false,
+      "model": "",
+      "platform": "macOS",
+      "wow64": false
+    }
+  },
+  "transport_verification": "unverified: header fixtures do not certify TLS emulation",
+  "sources": [
+    "https://www.chromium.org/updates/ua-reduction/",
+    "https://github.com/brave/brave-browser/wiki/User-Agents",
+    "https://wicg.github.io/ua-client-hints/"
+  ],
+  "assumptions": [
+    "Desktop x86_64 variant derived from native Linux request samples.",
+    "UA platform tokens and low-entropy platform hint follow cited primary sources.",
+    "Header order, resource Accept values and brand order inherited from Linux; not native-verified.",
+    "OS platformVersion is unknown and omitted, not invented.",
+    "Exact full build version is not verified on this OS; full-version-list is omitted.",
+    "Brave site-specific brand suppression is not covered by these generic fixtures."
+  ],
+  "samples": [
+    {
+      "protocol": "h2",
+      "scenario": "navigation",
+      "headers": [
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "upgrade-insecure-requests",
+          "1"
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "accept",
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "u=0, i"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "upgrade-insecure-requests",
+        "user-agent",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-user",
+        "sec-fetch-dest",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "link",
+      "headers": [
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "upgrade-insecure-requests",
+          "1"
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "accept",
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "u=0, i"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "upgrade-insecure-requests",
+        "user-agent",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-user",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "script",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "accept",
+          "*/*"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua-platform",
+        "user-agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "style",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "accept",
+          "text/css,*/*;q=0.1"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "u=0"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua-platform",
+        "user-agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "image",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "accept",
+          "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "i"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua-platform",
+        "user-agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "font",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "accept",
+          "*/*"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "u=0"
+        ]
+      ],
+      "order": [
+        "origin",
+        "sec-ch-ua-platform",
+        "user-agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "fetch",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "accept",
+          "*/*"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "u=1, i"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua-platform",
+        "user-agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "post",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "content-type",
+          "text/plain"
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "accept",
+          "*/*"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "u=1, i"
+        ]
+      ],
+      "order": [
+        "content-length",
+        "sec-ch-ua-platform",
+        "user-agent",
+        "sec-ch-ua",
+        "content-type",
+        "sec-ch-ua-mobile",
+        "accept",
+        "sec-gpc",
+        "origin",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "cross-fetch",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "accept",
+          "*/*"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "u=1, i"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua-platform",
+        "user-agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "accept",
+        "sec-gpc",
+        "origin",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "cross-script",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "accept",
+          "*/*"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "sec-fetch-storage-access",
+          "none"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua-platform",
+        "user-agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "sec-fetch-storage-access",
+        "referer",
+        "accept-encoding",
+        "accept-language"
+      ]
+    },
+    {
+      "protocol": "h2",
+      "scenario": "hints",
+      "headers": [
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "user-agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "accept",
+          "*/*"
+        ],
+        [
+          "sec-gpc",
+          "1"
+        ],
+        [
+          "accept-encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "accept-language",
+          "en-US,en;q=0.8"
+        ],
+        [
+          "priority",
+          "u=1, i"
+        ]
+      ],
+      "order": [
+        "sec-ch-ua-full-version-list",
+        "sec-ch-ua-platform",
+        "sec-ch-ua",
+        "sec-ch-ua-bitness",
+        "sec-ch-ua-model",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-wow64",
+        "sec-ch-ua-arch",
+        "user-agent",
+        "sec-ch-ua-platform-version",
+        "accept",
+        "sec-gpc",
+        "sec-fetch-site",
+        "sec-fetch-mode",
+        "sec-fetch-dest",
+        "referer",
+        "accept-encoding",
+        "accept-language",
+        "priority"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "navigation",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "Upgrade-Insecure-Requests",
+          "1"
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "Accept",
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "Upgrade-Insecure-Requests",
+        "User-Agent",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-User",
+        "Sec-Fetch-Dest",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "link",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "Upgrade-Insecure-Requests",
+          "1"
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "Accept",
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform",
+        "Upgrade-Insecure-Requests",
+        "User-Agent",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-User",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "script",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "Accept",
+          "*/*"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "style",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "Accept",
+          "text/css,*/*;q=0.1"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "image",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "Accept",
+          "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "font",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "Accept",
+          "*/*"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "Origin",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "fetch",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "Accept",
+          "*/*"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "post",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "Content-Type",
+          "text/plain"
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "Accept",
+          "*/*"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "Content-Length",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "sec-ch-ua",
+        "Content-Type",
+        "sec-ch-ua-mobile",
+        "Accept",
+        "Sec-GPC",
+        "Origin",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "cross-fetch",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "Accept",
+          "*/*"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "Accept",
+        "Sec-GPC",
+        "Origin",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "cross-script",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "Accept",
+          "*/*"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Sec-Fetch-Storage-Access",
+          "none"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua-platform",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Sec-Fetch-Storage-Access",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    },
+    {
+      "protocol": "http/1.1",
+      "scenario": "hints",
+      "headers": [
+        [
+          "Connection",
+          "keep-alive"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "\"macOS\""
+        ],
+        [
+          "sec-ch-ua",
+          "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Brave\";v=\"152\""
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "?0"
+        ],
+        [
+          "User-Agent",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
+        ],
+        [
+          "Accept",
+          "*/*"
+        ],
+        [
+          "Sec-GPC",
+          "1"
+        ],
+        [
+          "Accept-Encoding",
+          "gzip, deflate, br, zstd"
+        ],
+        [
+          "Accept-Language",
+          "en-US,en;q=0.8"
+        ]
+      ],
+      "order": [
+        "Host",
+        "Connection",
+        "sec-ch-ua-full-version-list",
+        "sec-ch-ua-platform",
+        "sec-ch-ua",
+        "sec-ch-ua-bitness",
+        "sec-ch-ua-model",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-wow64",
+        "sec-ch-ua-arch",
+        "User-Agent",
+        "sec-ch-ua-platform-version",
+        "Accept",
+        "Sec-GPC",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Dest",
+        "Referer",
+        "Accept-Encoding",
+        "Accept-Language"
+      ]
+    }
+  ],
+  "high_entropy_headers": {
+    "sec-ch-ua-bitness": "\"64\"",
+    "sec-ch-ua-model": "\"\"",
+    "sec-ch-ua-wow64": "?0",
+    "sec-ch-ua-arch": "\"x86\""
+  }
+}

@@ -1,11 +1,11 @@
 [package]
 name = "wreq-util"
 description = "Common utilities for wreq"
-repository = "https://github.com/0x676e67/wreq-util"
+repository = "https://github.com/markjacksoncerberus/wreq-util"
 documentation = "https://docs.rs/wreq-util"
 keywords = ["http", "client", "emulation", "ja3", "ja4"]
 authors = ["0x676e67 <gngppz@gmail.com>"]
-version = "3.0.0-rc.10"
+version = "3.0.0-rc.12"
 readme = "README.md"
 license = "Apache-2.0"
 edition = "2024"
@@ -19,14 +19,21 @@ targets = ["x86_64-unknown-linux-gnu"]
 [features]
 default = ["emulation"]
 
+tokio-rt = ["wreq/tokio-rt"]
+compio-rt = ["wreq/compio-rt"]
+
 emulation = ["dep:typed-builder", "dep:brotli", "dep:flate2", "dep:zstd"]
 emulation-serde = ["dep:serde"]
 emulation-compression = []
+captured = ["emulation", "dep:serde", "dep:serde_json", "dep:url", "dep:psl", "wreq/gzip", "wreq/brotli", "wreq/deflate", "wreq/zstd", "wreq/cookies"]
 
 tower-delay = ["dep:tower", "dep:pin-project-lite", "tokio/time"]
 
 [dependencies]
-wreq = { git = "https://github.com/0x676e67/wreq.git", default-features = false }
+serde_json = { version = "1", optional = true }
+url = { version = "2", optional = true }
+psl = { version = "2", optional = true }
+wreq = { version = "=6.0.0-rc.29", default-features = false }
 
 # Optional deps...
 
@@ -42,13 +49,14 @@ flate2 = { version = "1.1.9", optional = true }
 zstd = { version = "0.13.3", optional = true }
 
 [dev-dependencies]
+wreq = "=6.0.0-rc.29"
 tokio = { version = "1.48.0", features = ["full"] }
-hyper = { version = "1.8.1", default-features = false, features = [
+hyper = { version = "1.10.1", default-features = false, features = [
     "http1",
     "http2",
     "server",
 ] }
-hyper-util = { version = "0.1.16", features = [
+hyper-util = { version = "0.1.20", features = [
     "http1",
     "http2",
     "server-auto",
@@ -88,3 +96,19 @@ required-features = ["emulation"]
 name = "tower_delay"
 path = "examples/tower_delay.rs"
 required-features = ["tower-delay"]
+
+[[example]]
+name = "captured_probe"
+path = "examples/captured_probe.rs"
+required-features = ["captured"]
+
+[[example]]
+name = "profiles"
+path = "examples/profiles.rs"
+required-features = ["captured"]
+
+# These transport patches are required by the modern Chrome presets.
+[patch.crates-io]
+wreq = { path = "vendor/wreq" }
+http2 = { path = "vendor/http2" }
+btls-sys = { path = "vendor/btls-sys" }
