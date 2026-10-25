@@ -109,6 +109,6 @@ required-features = ["captured"]
 
 # These transport patches are required by the modern Chrome presets.
 [patch.crates-io]
-wreq = { path = "vendor/wreq" }
-http2 = { path = "vendor/http2" }
-btls-sys = { path = "vendor/btls-sys" }
+wreq = { path = "../wreq" }
+http2 = { path = "../wreq/vendor/http2" }
+btls-sys = { path = "../wreq/vendor/btls-sys" }

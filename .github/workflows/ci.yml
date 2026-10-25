@@ -20,6 +20,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Checkout companion fork
+        uses: actions/checkout@v6
+        with:
+          repository: markjacksoncerberus/wreq
+          path: .companion-wreq
+          persist-credentials: false
+      - name: Place companion beside this checkout
+        shell: bash
+        run: mv .companion-wreq ../wreq
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
@@ -34,6 +43,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Checkout companion fork
+        uses: actions/checkout@v6
+        with:
+          repository: markjacksoncerberus/wreq
+          path: .companion-wreq
+          persist-credentials: false
+      - name: Place companion beside this checkout
+        shell: bash
+        run: mv .companion-wreq ../wreq
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
@@ -46,6 +64,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Checkout companion fork
+        uses: actions/checkout@v6
+        with:
+          repository: markjacksoncerberus/wreq
+          path: .companion-wreq
+          persist-credentials: false
+      - name: Place companion beside this checkout
+        shell: bash
+        run: mv .companion-wreq ../wreq
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
@@ -67,6 +94,15 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/')
     steps:
       - uses: actions/checkout@v6
+      - name: Checkout companion fork
+        uses: actions/checkout@v6
+        with:
+          repository: markjacksoncerberus/wreq
+          path: .companion-wreq
+          persist-credentials: false
+      - name: Place companion beside this checkout
+        shell: bash
+        run: mv .companion-wreq ../wreq
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable

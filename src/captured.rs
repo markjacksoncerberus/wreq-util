@@ -227,6 +227,27 @@ impl CaptureProfile {
         )
     }
 
+    /// Chromium-major transport preset used by Chadbrowse's captured identities.
+    /// This is an explicit transport choice, not certification of native TLS parity.
+    /// Newer header-only captures require an explicit caller-selected transport.
+    pub fn chromium_transport_profile(&self) -> Result<crate::Profile, Error> {
+        let major = self.chromium_version.split('.').next().unwrap_or("");
+        Ok(match major {
+            "148" => crate::Profile::Chrome148,
+            "149" => crate::Profile::Chrome149,
+            "150" => crate::Profile::Chrome150,
+            "151" => crate::Profile::Chrome151,
+            "152" => crate::Profile::Chrome152,
+            "153" => crate::Profile::Chrome153,
+            "154" => crate::Profile::Chrome154,
+            _ => {
+                return Err(
+                    format!("no supported Chromium transport for {}", self.profile_id).into(),
+                );
+            }
+        })
+    }
+
     fn sample(&self, protocol: Protocol, scenario: &str) -> Result<&Sample, Error> {
         self.samples
             .iter()
